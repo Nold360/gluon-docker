@@ -1,0 +1,8 @@
+---
+version: '3'
+services:
+  ffmd-build:
+    build: .
+    volumes:
+     - ./firmwares:/gluon/output
+     - ./openwrt_build:/gluon/openwrt/build_dir
