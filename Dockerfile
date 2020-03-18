@@ -1,9 +1,9 @@
 FROM gcc:7.2
 
 ARG FFMD_REPO=https://github.com/FreifunkMD/site-ffmd.git
-ARG FFMD_VERSION=tags/v0.40
+ARG FFMD_VERSION=origin/babel
 ARG GLUON_REPO=git://github.com/freifunk-gluon/gluon.git
-ARG GLUON_VERSION=origin/v2016.2.x
+ARG GLUON_VERSION=origin/next
 
 # Apt-proxy config
 COPY detect-apt-proxy.sh /usr/local/bin/
